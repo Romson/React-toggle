@@ -1,0 +1,26 @@
+h1, h2 {
+    color:  rgb(120, 129, 122);
+}
+
+#divOne {
+    background-color: beige;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(170, 214, 162), rgb(223, 223, 158));
+    font-size: 13px;
+    outline: none;
+}
+
+@media screen and (max-width: 800px) {
+    #divOne {
+        width: 60vw;
+    }
+  }
